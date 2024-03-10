@@ -1,0 +1,30 @@
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+}
+.navButton{
+    height: 1.8rem;
+}
+
+#mainContainer{
+    background-image: url('/assets/adorable_cute_kawaii_Cafe_with.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+    width: 100%;
+    height: 490px;
+}
+.content{
+    height: 100%;
+    width: 70%;
+    border: 1px black solid;
+    backdrop-filter: blur(5px);
+    background-color: rgba(128, 128, 128, 0.185);
+}
