@@ -1,8 +1,10 @@
-function changeImage() {
-    var img = document.getElementById('myImage');
-    if (img.src.match("image1.jpg")) {
-        img.src = "image2.jpg";
+const img = document.getElementById("bigBut");
+img.addEventListener("click", function() {
+    console.log("Clicked");
+
+    if (img.src.includes("/assets/menu.png")) {
+        img.src = "/assets/testingIMG.png";
     } else {
-        img.src = "image1.jpg";
+        img.src = "/assets/menu.png";
     }
-}
+});

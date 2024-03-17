@@ -37,13 +37,13 @@ body{
 }
 
 #navbar{
-    width: 40%;
+    width: 20%;
     position: relative;
-    left: 300px;
+    left: 450px;
     background-color: rgba(255, 255, 255, 0);
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-self: flex-end;
     gap: 25px;
     padding-right: 100px;
     padding-top: 10px;
@@ -86,12 +86,24 @@ body{
 }
 
 .content {
+    float: right;
     height: 100vh;
     width: 50%;
-     backdrop-filter: blur(px);
-     background-color: rgba(128, 128, 128, 0);
+     backdrop-filter: blur(5px);
+     background-color: rgba(128, 128, 128, 0.2);
      border: 1px solid rgba(0, 0, 0, 0.164);
     flex: 0.57;
+}
+.food{
+    padding: 10px;
+    height: 250px;
+    width: 250px;
+}
+.food:hover{
+    rotate: 3deg;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
 }
 
 #homeSide {
@@ -104,13 +116,10 @@ body{
     text-align: center;
 }
 
-h1{
-    margin: 15px;
-    font-size: 3rem;
-    font-family: marker;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    text-shadow: 0 0 5px rgb(255, 255, 255);
+#h1{
+    padding-top: 35px;
+    height: 100px;
+    width: 250px;
 }
 .redacted{
     font-family: redacted;
