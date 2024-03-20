@@ -19,6 +19,10 @@ body{
     font-family: marker;
     src: url(/assets/fonts/PermanentMarker-Regular.ttf);
 }
+@font-face {
+    font-family: texti;
+    src: url(/assets/fonts/EduNSWACTFoundation-VariableFont_wght.ttf);
+}
 
 #mainContainer{
     background-image: url('/assets/фон.png');
@@ -36,13 +40,12 @@ body{
 /*------------------------------ Navbar --------------------------- */
 
 #navbar{
-    width: 20%;
+    width: 100%;
     left: 130px;
-    position: relative;
     background-color: rgba(255, 255, 255, 0);
     display: flex;
-    flex-direction: row;
-    gap: 25px;
+    justify-content: center;
+    align-items: center;
     padding-right: 100px;
     padding-top: 10px;
 }
@@ -62,7 +65,7 @@ body{
     text-decoration: underline;
 }
 
-/* Main stuff */
+/*----------------------- Main stuff ---------------------- */
 
 #innerContainer {
     display: flex;
@@ -76,8 +79,8 @@ body{
     left: auto;
     height: 100vh;
     width: 75%;
-     backdrop-filter: blur(5px);
-     background-color: rgba(128, 128, 128, 0.2);
+     backdrop-filter: blur(0px);
+     background-color: rgba(128, 128, 128, 0.0);
      border: 1px solid rgba(0, 0, 0, 0.164);
     flex: 0.7;
 }
@@ -136,7 +139,8 @@ body{
     margin: 10px;
     font-size: 1.8rem;
     font-family: marker;
-    text-shadow: 0 0 2px white;
+    color: rgb(136, 66, 12);
+    text-shadow: 0 0 5px white;
 }
 #bigBut{
     margin-top: 20px;
@@ -168,4 +172,54 @@ body{
   }
 #logo:hover{
     animation: shake 0.5s ease-in-out infinite;
+}
+
+/* --------------------  About section  ----------------*/
+h1{
+    font-family: texti;
+    text-align: center;
+    font-size: 2.8rem;
+}
+h2{
+    text-align: center;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+p{
+    font-family: texti;
+    font-size: 1.6rem;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+ul img{
+    height: 25px;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+#contactUs{
+    margin: auto;
+    font-family: texti;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 25px;
+    border: 1px solid rgb(199, 97, 20); 
+    background-color: rgb(243, 156, 89);
+}
+footer{
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    bottom: auto;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    color: rgba(0, 0, 0, 0.623);
+    background-color: rgba(128, 128, 128, 0.267);
 }
