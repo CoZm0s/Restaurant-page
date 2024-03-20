@@ -1,28 +1,14 @@
-import './style.css';
-
-    const img = document.getElementById("bigBut"); //Function for changing the img when the button is clicked
-    function toggleImage() {
-        console.log("Clicked");
-    
-        if (img.src.includes("/assets/menu.png")) {
-            img.src = "/assets/testingIMG.png";
-        } else {
-            img.src = "/assets/menu.png";
-        }
-    }
-    img.addEventListener("click", toggleImage);
+import './style.css'; //importing the css into the js file for webpack purposes
 
 document.addEventListener('DOMContentLoaded', function() {
 
-        //assigning values
-        const menuToggleDesserts = document.getElementById('menuToggleDesserts')
-        const menuToggleDrinks = document.getElementById('menuToggleDrinks')
+    //  - Assigning values -
+
         const contentTab = document.querySelector('.content')
-        const mainContainer = document.getElementById('mainContainer');
         const menuButton = document.getElementById('bigBut');
         const aboutButton = document.getElementById('aboutButton');
 
-    //Menu content management
+    // - Menu - content management
  
     menuButton.addEventListener('click', function(){
         contentTab.style.backgroundColor = 'rgba(128, 128, 128, 0.2)';
@@ -41,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Menu content was added');
     });
     
-    // About content management 
+    // - About - content management 
     aboutButton.addEventListener('click', function(){
         contentTab.style.backgroundColor = 'rgba(128, 128, 128, 0.2)';
         contentTab.style.backdropFilter = 'blur(5px)';
@@ -69,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 
+//Function to toggle menu items for drinks
 contentTab.addEventListener('click', function(event) {
     if (event.target.id === 'menuToggleDrinks') { 
         console.log('Drinks are toggled');
@@ -86,12 +73,10 @@ contentTab.addEventListener('click', function(event) {
                 <img class="food" src="/assets/Drinks/oreo.png">
             </div>
             `;
-            img.removeEventListener("click", toggleImage); // Remove the event listener
-            img.addEventListener("click", toggleImage); // Reattach the event listener
         });
     }
 });
-
+//Function to toggle menu items for desserts
 contentTab.addEventListener('click', function(event) {
     if (event.target.id === 'menuToggleDesserts') { 
         const menuToggleDrinks = document.getElementById('menuToggleDesserts');
@@ -108,10 +93,7 @@ contentTab.addEventListener('click', function(event) {
                 <img class="food" src="/assets/Desserts/JELLY RUSH.png">
             </div>
             `;
-            img.removeEventListener("click", toggleImage); // Remove the event listener
-            img.addEventListener("click", toggleImage); // Reattach the event listener
         });
     }
 });
-
 });

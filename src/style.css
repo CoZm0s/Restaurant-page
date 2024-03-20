@@ -1,8 +1,6 @@
 
-body{
-    margin: 0;
-}
-/*----------------------- Fonts ----------------------------------------------- */
+
+/*------------------------------------------- Fonts --------------------------------------------------------------------------- */
 @font-face {
     font-family: Dancing;
     src: url(/assets/fonts/DancingScript-VariableFont_wght.ttf);
@@ -23,7 +21,10 @@ body{
     font-family: texti;
     src: url(/assets/fonts/EduNSWACTFoundation-VariableFont_wght.ttf);
 }
-
+/* ----------------------------------- Setting up the layout ------------------------------------------------------------------- */
+body{
+    margin: 0;
+}
 #mainContainer{
     background-image: url('/assets/фон.png');
     background-size: cover;
@@ -37,7 +38,7 @@ body{
     height: 100vh;
 }
 
-/*------------------------------ Navbar --------------------------- */
+/*-------------------------------------------- Navbar -------------------------------------------------------------------------- */
 
 #navbar{
     width: 100%;
@@ -65,7 +66,7 @@ body{
     text-decoration: underline;
 }
 
-/*----------------------- Main stuff ---------------------- */
+/*----------------------------- Main - content - stuff ------------------------------------------------------------------------- */
 
 #innerContainer {
     display: flex;
@@ -100,7 +101,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-/* menu items and their styling */
+/* --------------------------- Menu items and their styling ------------------------------------------------------------------- */
 
 .menuToggle{
     height: 50px;
@@ -116,7 +117,7 @@ body{
     justify-content: space-between;
 }
 
-/* main stuff from the right side of the screen */
+/* ------------------------- Main stuff from the - right side - of the screen -------------------------------------------------- */
 
 #homeSide {
     height: 90vh;
@@ -163,7 +164,8 @@ body{
     height: 150px; 
     background-size: cover;
 }
-@keyframes shake {
+/* - Animation for the logo of the Cafe - */
+@keyframes shake { 
     0% { transform: translateX(0); }
     25% { transform: translateX(-5px); }
     50% { transform: translateX(5px); }
@@ -174,7 +176,7 @@ body{
     animation: shake 0.5s ease-in-out infinite;
 }
 
-/* --------------------  About section  ----------------*/
+/* --------------------------  About section  -----------------------------------------------------------------------------------*/
 h1{
     font-family: texti;
     text-align: center;
@@ -213,6 +215,7 @@ li:hover{
     border: 1px solid rgb(199, 97, 20); 
     background-color: rgb(243, 156, 89);
 }
+
 footer{
     width: 100%;
     height: 20px;
