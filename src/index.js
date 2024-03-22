@@ -14,14 +14,14 @@ document.addEventListener('DOMContentLoaded', function() {
         contentTab.style.backgroundColor = 'rgba(128, 128, 128, 0.2)';
         contentTab.style.backdropFilter = 'blur(5px)';
         contentTab.innerHTML = `
-        <div id="menuTogglediv"><img class="menuToggle" id="menuToggleDrinks" src="/assets/DRINKS.png">  <img class="menuToggle" id="menuToggleDesserts" src="/assets/DESSERT.png"> </div>
+        <div id="menuTogglediv"><img class="menuToggle" id="menuToggleDrinks" src="/dist/assets/DRINKS.png">  <img class="menuToggle" id="menuToggleDesserts" src="/dist/assets/DESSERT.png"> </div>
         <div id="innerContent">
-            <img class="food" src="/assets/Desserts/кошачья мята (1).png">
-            <img class="food" src="/assets/Desserts/MILK.png">
-            <img class="food" src="/assets/Desserts/KITTENS.png">
-            <img class="food" src="/assets/Desserts/клубок.png">
-            <img class="food" src="/assets/Desserts/ТОЛСТЫЙ КОТИК.png">
-            <img class="food" src="/assets/Desserts/JELLY RUSH.png">
+            <img class="food" src="/dist/assets/Desserts/кошачья мята (1).png">
+            <img class="food" src="/dist/assets/Desserts/MILK.png">
+            <img class="food" src="/dist/assets/Desserts/KITTENS.png">
+            <img class="food" src="/dist/assets/Desserts/клубок.png">
+            <img class="food" src="/dist/assets/Desserts/ТОЛСТЫЙ КОТИК.png">
+            <img class="food" src="/dist/assets/Desserts/JELLY RUSH.png">
         </div>
         `;
         console.log('Menu content was added');
@@ -63,14 +63,14 @@ contentTab.addEventListener('click', function(event) {
         menuToggleDrinks.addEventListener('click', function() {
             console.log('Drinks are toggled');
             contentTab.innerHTML = `
-            <div id="menuTogglediv"><img class="menuToggle" id="menuToggleDrinks" src="/assets/DRINKS.png">  <img class="menuToggle" id="menuToggleDesserts" src="/assets/DESSERT.png"> </div>
+            <div id="menuTogglediv"><img class="menuToggle" id="menuToggleDrinks" src="/dist/assets/DRINKS.png">  <img class="menuToggle" id="menuToggleDesserts" src="/dist/assets/DESSERT.png"> </div>
             <div id="innerContent">
-                <img class="food" src="/assets/Drinks/bitteresso.png">
-                <img class="food" src="/assets/Drinks/candy.png">
-                <img class="food" src="/assets/Drinks/frozen cat.png">
-                <img class="food" src="/assets/Drinks/shake.png">
-                <img class="food" src="/assets/Drinks/царапки.png">
-                <img class="food" src="/assets/Drinks/oreo.png">
+                <img class="food" src="/dist/assets/Drinks/bitteresso.png">
+                <img class="food" src="/dist/assets/Drinks/candy.png">
+                <img class="food" src="/dist/assets/Drinks/frozen cat.png">
+                <img class="food" src="/dist/assets/Drinks/shake.png">
+                <img class="food" src="/dist/assets/Drinks/царапки.png">
+                <img class="food" src="/dist/assets/Drinks/oreo.png">
             </div>
             `;
         });
@@ -83,14 +83,14 @@ contentTab.addEventListener('click', function(event) {
         menuToggleDrinks.addEventListener('click', function() {
             console.log('Desserts are toggled');
             contentTab.innerHTML = `
-            <div id="menuTogglediv"><img class="menuToggle" id="menuToggleDrinks" src="/assets/DRINKS.png">  <img class="menuToggle" id="menuToggleDesserts" src="/assets/DESSERT.png"> </div>
+            <div id="menuTogglediv"><img class="menuToggle" id="menuToggleDrinks" src="/dist/assets/DRINKS.png">  <img class="menuToggle" id="menuToggleDesserts" src="/dist/assets/DESSERT.png"> </div>
             <div id="innerContent">
-                <img class="food" src="/assets/Desserts/кошачья мята (1).png">
-                <img class="food" src="/assets/Desserts/MILK.png">
-                <img class="food" src="/assets/Desserts/KITTENS.png">
-                <img class="food" src="/assets/Desserts/клубок.png">
-                <img class="food" src="/assets/Desserts/ТОЛСТЫЙ КОТИК.png">
-                <img class="food" src="/assets/Desserts/JELLY RUSH.png">
+                <img class="food" src="/dist/assets/Desserts/кошачья мята (1).png">
+                <img class="food" src="/dist/assets/Desserts/MILK.png">
+                <img class="food" src="/dist/assets/Desserts/KITTENS.png">
+                <img class="food" src="/dist/assets/Desserts/клубок.png">
+                <img class="food" src="/dist/assets/Desserts/ТОЛСТЫЙ КОТИК.png">
+                <img class="food" src="/dist/assets/Desserts/JELLY RUSH.png">
             </div>
             `;
         });

@@ -3,30 +3,30 @@
 /*------------------------------------------- Fonts --------------------------------------------------------------------------- */
 @font-face {
     font-family: Dancing;
-    src: url(/assets/fonts/DancingScript-VariableFont_wght.ttf);
+    src: url(/dist/assets/fonts/DancingScript-VariableFont_wght.ttf);
 }
 @font-face {
     font-family: Mondst;
-    src: url(/assets//fonts/Montserrat-VariableFont_wght.ttf);
+    src: url(/dist/assets/fonts/Montserrat-VariableFont_wght.ttf);
 }
 @font-face {
     font-family: redacted;
-    src: url(/assets/fonts/RedactedScript-Regular.ttf);
+    src: url(/dist/assets/fonts/RedactedScript-Regular.ttf);
 }
 @font-face {
     font-family: marker;
-    src: url(/assets/fonts/PermanentMarker-Regular.ttf);
+    src: url(/dist/assets/fonts/PermanentMarker-Regular.ttf);
 }
 @font-face {
     font-family: texti;
-    src: url(/assets/fonts/EduNSWACTFoundation-VariableFont_wght.ttf);
+    src: url(/dist/assets/fonts/EduNSWACTFoundation-VariableFont_wght.ttf);
 }
 /* ----------------------------------- Setting up the layout ------------------------------------------------------------------- */
 body{
     margin: 0;
 }
 #mainContainer{
-    background-image: url('/assets/фон.png');
+    background-image: url('/dist/assets/фон.png');
     background-size: cover;
     background-position: center;
     display: flex;
