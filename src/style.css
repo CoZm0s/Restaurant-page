@@ -41,13 +41,11 @@ body{
 /*-------------------------------------------- Navbar -------------------------------------------------------------------------- */
 
 #navbar{
-    width: 100%;
-    left: 130px;
+    width: 25px;
     background-color: rgba(255, 255, 255, 0);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 100px;
     padding-top: 10px;
 }
 .navButton{
@@ -71,6 +69,8 @@ body{
 #innerContainer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     flex: 0.53;
 }
@@ -95,6 +95,54 @@ body{
     cursor: pointer;
     transform: scale(1.1);
     transition: 1s;
+}
+#menuToggleDesserts{
+    background-image: url(/dist/assets/DESSERT.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#menuToggleDrinks{
+    background-image: url(/dist/assets/DRINKS.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#mint{
+    background-image: url(/dist/assets/Desserts/кошачья\ мята\ \(1\).png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#milk{
+    background-image: url(/dist/assets/Desserts/MILK.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#kittens{
+    background-image: url(/dist/assets/Desserts/KITTENS.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#curb{
+    background-image: url(/dist/assets/Desserts/клубок.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#fat{
+    background-image: url(/dist/assets/Desserts/ТОЛСТЫЙ\ КОТИК.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#jelly{
+    background-image: url(/dist/assets/Desserts/JELLY\ RUSH.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #innerContent{
     display: grid;
@@ -147,9 +195,20 @@ body{
     color: rgb(136, 66, 12);
     text-shadow: 0 0 5px white;
 }
+#imageHolder{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
 #bigBut{
+    background-image: url(/dist/assets/menu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     margin-top: 20px;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,10 +222,13 @@ body{
 }
 
 #logo{
-    margin-top: 25px;
-    max-width: 150px;
-    height: 150px; 
-    background-size: cover;
+    background-image: url(/dist/assets/иконка.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    width: 100x;
+    height: 100px; 
 }
 /* - Animation for the logo of the Cafe - */
 @keyframes shake { 
