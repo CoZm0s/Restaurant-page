@@ -89,6 +89,9 @@ body{
     padding: 10px;
     height: 200px;
     width: 200px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .food:hover{
     rotate: 3deg;
@@ -101,49 +104,60 @@ body{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+
 }
 #menuToggleDrinks{
     background-image: url(/dist/assets/DRINKS.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+
 }
 #mint{
     background-image: url(/dist/assets/Desserts/кошачья\ мята\ \(1\).png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+
 }
 #milk{
     background-image: url(/dist/assets/Desserts/MILK.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+
 }
 #kittens{
     background-image: url(/dist/assets/Desserts/KITTENS.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+
 }
 #curb{
     background-image: url(/dist/assets/Desserts/клубок.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+
 }
 #fat{
     background-image: url(/dist/assets/Desserts/ТОЛСТЫЙ\ КОТИК.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+
 }
 #jelly{
     background-image: url(/dist/assets/Desserts/JELLY\ RUSH.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+
 }
+#drink1{
+    background-image: url(/dist/assets/Drinks/bitteresso.png);
+}
+#drink2{
+    background-image: url(/dist/assets/Drinks/candy.png);
+    
+}
+#drink3{
+    background-image: url(/dist/assets/Drinks/frozen\ cat.png);
+}
+#drink4{
+    background-image: url(/dist/assets/Drinks/oreo.png);
+}
+#drink5{
+    background-image: url(/dist/assets/Drinks/shake.png);
+}
+#drink6{
+    background-image: url(/dist/assets/Drinks/царапки.png);
+}
+
+
 #innerContent{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

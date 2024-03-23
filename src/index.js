@@ -63,14 +63,14 @@ contentTab.addEventListener('click', function(event) {
         menuToggleDrinks.addEventListener('click', function() {
             console.log('Drinks are toggled');
             contentTab.innerHTML = `
-            <div id="menuTogglediv"><img class="menuToggle" id="menuToggleDrinks" src="/dist/assets/DRINKS.png">  <img class="menuToggle" id="menuToggleDesserts" src="/dist/assets/DESSERT.png"> </div>
+            <div id="menuTogglediv"><div class="menuToggle" id="menuToggleDrinks"></div>  <div class="menuToggle" id="menuToggleDesserts"></div>  </div>
             <div id="innerContent">
-                <img class="food" src="/dist/assets/Drinks/bitteresso.png">
-                <img class="food" src="/dist/assets/Drinks/candy.png">
-                <img class="food" src="/dist/assets/Drinks/frozen cat.png">
-                <img class="food" src="/dist/assets/Drinks/shake.png">
-                <img class="food" src="/dist/assets/Drinks/царапки.png">
-                <img class="food" src="/dist/assets/Drinks/oreo.png">
+                <div class="food" id="drink1"></div>
+                <div class="food" id="drink2"></div>
+                <div class="food" id="drink3"></div>
+                <div class="food" id="drink4"></div>
+                <div class="food" id="drink5"></div>
+                <div class="food" id="drink6"></div>
             </div>
             `;
         });
